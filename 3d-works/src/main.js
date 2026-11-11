@@ -4,14 +4,16 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import './style.css';
 
+
 const projects = [
   {
-    title: 'Chrome Reverie',
-    type: 'Abstract Sculpture',
+    title: 'Violet Sculpture',
+    type: '3D Abstract Art',
     year: '2026',
     shape: 'torus',
     color: 0xa57bff,
-    description: 'A sculptural study of reflective surfaces, movement, and light.'
+    model: '/models/violet-sculpture.glb',
+    description: 'A futuristic purple 3D sculpture.'
   },
   {
     title: 'Orbit / 01',
@@ -19,7 +21,7 @@ const projects = [
     year: '2026',
     shape: 'icosa',
     color: 0x7e52e9,
-    description: 'An experimental product concept inspired by orbital geometry.'
+    description: 'An experimental product concept.'
   },
   {
     title: 'Soft Geometry',
@@ -27,7 +29,7 @@ const projects = [
     year: '2025',
     shape: 'knot',
     color: 0xd5a0ff,
-    description: 'Organic forms and gentle gradients in three-dimensional space.'
+    description: 'Organic forms in three-dimensional space.'
   }
 ];
 
