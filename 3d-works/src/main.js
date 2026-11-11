@@ -398,5 +398,3 @@ entry.renderer.render(entry.scene, entry.camera);
 }
 
 requestAnimationFrame(tick);
-
-can you put updated?
